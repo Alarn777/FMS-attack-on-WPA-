@@ -1,10 +1,10 @@
 # FMS-attack-on-WPA-
 To run the program you need a traffic.rcf with IV3 encoding file 
 
-How does this work:
-Assuming we have enough messages interrupted.
-We know that almost all messages start with 0xAA
-And that the message is combined: IV||(P(IV||key))
+    How does this work:
+    Assuming we have enough messages interrupted.
+    We know that almost all messages start with 0xAA
+    And that the message is combined: IV||(P(IV||key))
 
     We use special "weak" messages of 5 bytes of structure:
     bit_we_hack+3 : 0xFF : any_muber
