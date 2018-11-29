@@ -130,7 +130,7 @@ int main(){
         printf("--------------------------------------------------------\n");
     }
 
-
+    //in my specific case next line is needed to open the file beacuse the algorithm gives suggestet characters for a key only
     key[4] = 'm';
 
     for (int k = 0; k < 5; ++k) {
